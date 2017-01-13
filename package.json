@@ -1,0 +1,25 @@
+{
+  "name": "inferno-cal",
+  "version": "1.0.0",
+  "description": "Describe inferno-cal here",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-inferno-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-inferno-app",
+    "test": "nwb test-inferno",
+    "test:coverage": "nwb test-inferno --coverage",
+    "test:watch": "nwb test-inferno --server"
+  },
+  "dependencies": {
+    "inferno": "^1.1.2",
+    "inferno-compat": "^1.1.2",
+    "inferno-component": "^1.1.2"
+  },
+  "devDependencies": {
+    "nwb": "0.14.x"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}
