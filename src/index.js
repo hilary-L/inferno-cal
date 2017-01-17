@@ -1,8 +1,6 @@
-import './index.css'
+import Inferno from 'inferno';
 
-import Inferno from 'inferno'
-
-import App from './App'
+import App from './App';
 
 if(module.hot) {
 	require('inferno-devtools')

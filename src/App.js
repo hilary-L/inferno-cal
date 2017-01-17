@@ -1,20 +1,24 @@
-import './App.css'
+import './sass/App.scss';
 
-import Inferno from 'inferno'
-import Component from 'inferno-component'
+import Inferno from 'inferno';
+import Component from 'inferno-component';
+import moment from 'moment';
+
+import Sidebar from './components/Sidebar/Sidebar';
 
 class App extends Component {
-  render() {
-    return <div className="App">
-      <div className="App-heading App-flex">
-        <h2>Welcome to <span className="App-inferno">Inferno</span></h2>
-      </div>
-      <div className="App-instructions App-flex">
-        <img className="App-logo" src={require('./inferno.svg')}/>
-        <p>Edit <code>src/App.js</code> and save to hot reload your changes.</p>
-      </div>
-    </div>
-  }
+
+	state = {
+		today
+	}
+
+	render(props, state) {
+		return (
+			<div className="app">
+				<Sidebar />
+			</div>
+		)
+	}
 }
 
 export default App
