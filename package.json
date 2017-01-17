@@ -14,11 +14,15 @@
   "dependencies": {
     "inferno": "^1.1.2",
     "inferno-compat": "^1.1.2",
-    "inferno-component": "^1.1.2"
+    "inferno-component": "^1.1.2",
+    "inferno-mobx": "^1.2.0",
+    "mobx": "^3.0.1",
+    "moment": "^2.17.1"
   },
   "devDependencies": {
     "inferno-devtools": "^1.1.2",
-    "nwb": "0.14.x"
+    "nwb": "0.14.x",
+    "nwb-sass": "^0.7.0"
   },
   "author": "",
   "license": "MIT",
